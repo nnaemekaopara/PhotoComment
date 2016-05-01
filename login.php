@@ -11,8 +11,8 @@
 		}else
 		{
 			// Define $username and $password
-			$username = ($db, $_POST['username']);
-			$password = md5($db, $_POST['password']);
+			$username=$_POST['username'];
+			$password=$_POST['password'];
 
 
 			
